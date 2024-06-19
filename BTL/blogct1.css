@@ -1,0 +1,131 @@
+#myblogct1 h3{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#myblogct1 p{
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+.infor_article i{
+    margin-right: 5px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.infor_article p{
+    margin-left: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#myblogct1 .col-md-4{
+    padding-left: 50px;
+}
+
+#myblogct1 .col-md-8{
+    padding-right: 30px;
+}
+
+.main-content h3{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.main-content p{
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(31, 30, 30);
+}
+
+.small-news {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5cm;
+}
+
+.small-news .left {
+    margin-right: 0.5cm;
+}
+
+.small-news .right {
+    flex: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.left img{
+    width: 100%;
+    border: 0.75px solid grey;
+    border-radius: 10px;
+    float: left;
+}
+
+.right a,
+.right span{
+    display: block;
+    color: rgb(99, 89, 89);
+    font-weight: 600;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.right a:hover{
+    color: #55c43c;
+    transform: translate(3px, -3px);
+    text-decoration: underline;
+}
+
+.comment input{
+    width: 100%;
+    border-radius: 15px;
+    border: 0.5px solid rgb(146, 139, 139);
+    height: 40px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.comment button{
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.content-comment{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.comment h4{
+    color: #8295A1;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.comment button{
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.75px solid grey;
+    background-color: #728D98;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.comment button:hover{
+    font-size: 15px;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+.nav-item {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
