@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 3,
-            link: "#",
+            link: "tra3.html",
             imgSrc: "assets/images/tra3.png",
             altText: "tra3",
             title: "Trà Mộc Liên Hảo Hạng Mộc Hương",
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         {
             id: 4,
-            link: "#",
+            link: "tra4.html",
             imgSrc: "assets/images/tra4.png",
             altText: "tra4",
             title: "Trà Chanh Dây Kim Quất Thanh Nhiệt",
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         {
             id: 6,
-            link: "#",
+            link: "tra6.htmlhtml",
             imgSrc: "assets/images/tra6.png",
             altText: "tra6",
             title: "Trà Đông Trùng Hạ Thảo Tứ Vị",
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         {
             id: 7,
-            link: "#",
+            link: "tra7.html",
             imgSrc: "assets/images/tra7.png",
             altText: "tra7",
             title: "Bột Cần Tây Sấy Lạnh Hữu Cơ",
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 8,
-            link: "#",
+            link: "tra8.htmlhtml",
             imgSrc: "assets/images/tra8.png",
             altText: "tra8",
             title: "Trà Tâm Sen Hảo Hạng Mộc Hương",
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 10,
-            link: "#",
+            link: "tra10.htmlhtml",
             imgSrc: "assets/images/tra14.png",
             altText: "tra14",
             title: "Trà Đường Nâu Cam Quế Tự Nhiên",
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 11,
-            link: "#",
+            link: "tra11.html",
             imgSrc: "assets/images/tra11.png",
             altText: "tra11",
             title: "Bột Cỏ Lúa Mỳ Sấy Lạnh Hữu Cơ",
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 12,
-            link: "#",
+            link: "tra12.html",
             imgSrc: "assets/images/tra12.png",
             altText: "tra12",
             title: "Bột Củ Sen Mix Hạt Organic",
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 13,
-            link: "#",
+            link: "tra13.htmlhtml",
             imgSrc: "assets/images/tra13.png",
             altText: "tra13",
             title: "Bột Rau Má Sấy Lạnh Hữu Cơ",
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 14,
-            link: "#",
+            link: "tra14.htmlhtml",
             imgSrc: "assets/images/tra15.png",
             altText: "tra15",
             title: "Trà Dưỡng Tâm An Thần Mộc Hương",
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             id: 15,
-            link: "#",
+            link: "tra15.html",
             imgSrc: "assets/images/tra17.png",
             altText: "tra17",
             title: "Trà Cúc Chi Sấy Lạnh Organic",
