@@ -1,0 +1,131 @@
+.wrapper-login {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+    /*background-image: linear-gradient(200deg, #7045d3, #AB65F0);*/
+    margin: 0;
+    min-height: 100vh; /*100% tỷ lệ màn hình theo chiều dọc*/
+    display: flex;
+    justify-content: center; /*canh giữa theo chiều ngang*/
+    align-items: center; /*canh giữa theo chiều dọc*/
+}
+
+.recovery a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #4e9240;
+}
+
+.login {
+    background-color: #efefef;
+    width: 400px;
+    text-align: center;
+    border: 2px solid #f7f8f9;
+    border-radius: 30px; /*bo viền*/
+    padding: 50px 30px;
+    /* box-shadow: 0 50px 150px #5553; /*hiệu ứng bóng: lệch trái:0, lệch dưới 50, độ nhòe 150*/
+}
+
+.login .title {
+    font-size: 45px;
+    color: #125f03;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login .group {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .group input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /*hiệu ứng trong suốt*/
+    border: none;
+    outline: none;
+    padding: 20px; /* khoảng cách nội dung và viền */
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login .group span {
+    color: hsl(130, 95%, 25%); /* corrected from #hsl to hsl */
+    display: flex; /* can đều các icon */
+    margin-right: 15px;
+    cursor: pointer; /*hiệu ứng hình bàn tay khi qua các icon */
+}
+
+/*.login .group span ion-icon:nth-child(2){
+    display: none;
+} /*trạng thái mặc định icon thứ 2: ẩn
+
+.login .group span.show ion-icon:nth-child(2){
+    display: block;
+}*/
+
+.login .recovery {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.login .signIn button {
+    background-color: hsl(130, 95%, 25%);
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    box-shadow: 0 10px 20px hsl(130, 95%, 25%);
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+.login .signIn button:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+.login .or {
+    font-size: small;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.login .list img {
+    width: 30px;
+}
+
+.login .list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+/*.login .item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F3FC;
+}*/
+
+.login .list a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.login .list a:hover {
+    transform: translate(3px, -3px);
+}
