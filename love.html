@@ -50,7 +50,7 @@
 
 <body>
     <header id="header" class="header">
-        <div class="header-destop">
+        <div class="header-destop" >
             <div class="top-header">
                 <div class="container">
                     <div class="row">
@@ -88,7 +88,7 @@
                                     class="icon-header icon-top-header-right" aria-label="Send us an email"><i
                                         class="fa fa-envelope"></i></a>
                             </div>
-
+    
                         </div>
                     </div>
                 </div>
@@ -101,9 +101,9 @@
                             <div class=" d-flex align-items-center header-left">
                                 <div class="box-logo">
                                     <!-- Header logo -->
-                                    <a href="home.html" title="Tiệm Trà An Nhiên" rel="home">
+                                    <a href="home.html" title="Tiệm Trà Mộc Hương" rel="home">
                                         <img width="110" height="50" src="assets/images/logo.jpg" class="img-logo"
-                                            alt="Tiệm Trà An Nhiên" />
+                                            alt="Tiệm Trà Mộc Hương" />
                                     </a>
                                 </div>
                                 <div class="box-list-menu">
@@ -113,23 +113,24 @@
                                         </li>
                                         <li class="menu-header">
                                             <div class=" show">
+                                                <a class="link-menu-header" href="sanpham.html">SẢN PHẨM</a>
                                                 <a class="dropdown-toggle link-menu-header dropdown-header-product" href="#"
                                                     role="button" id="dropdownMenuLink" data-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
-                                                    Sản Phẩm <i class="fa fa-chevron-down icon-dropdown-product"></i>
+                                                     <i class="fa fa-chevron-down icon-dropdown-product"></i>
                                                 </a>
                                                 <div class="dropdown-menu dropdown-item-menu-product"
                                                     aria-labelledby="dropdownMenuLink">
                                                     <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Hoa</a>
-                                                    <a class="dropdown-item dropdown-item-product" href="TraThaoMoc.html">Trà Thảo Mộc</a>
-                                                    <a class="dropdown-item dropdown-item-product" href="BotSayLanh.html">Bột Sấy Lạnh</a>
-                                                    <a class="dropdown-item dropdown-item-product" href="TraSen.html">Trà Sen</a>
+                                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Thảo Mộc</a>
+                                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Bột Sấy Lạnh</a>
+                                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Sen</a>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="menu-header"><a href="#" class="link-menu-header">Về chúng
+                                        <li class="menu-header"><a href="aboutme.html" class="link-menu-header">Về chúng
                                                 tôi</a></li>
-                                        <li class="menu-header"><a href="#" class="link-menu-header">Tin Tức</a></li>
+                                        <li class="menu-header"><a href="blog.html" class="link-menu-header">Tin Tức</a></li>
                                         <li class="menu-header"><a href="contact.html" class="link-menu-header">Liên Hệ</a></li>
                                     </ul>
                                 </div>
@@ -144,14 +145,81 @@
                                     <button id="search-button" type="button" >
                                         <i class="fa fa-search"></i>
                                     </button>
-                                    </div>
+                                </div>
+                            </div>
+                            <div class="favorite">
+                                <a href="love.html">
+                                    <img class="favorite-icon" src="assets/images/love.png" alt="Favorite">
+                                </a>
                             </div>
                             <div class="d-flex justify-content-end align-items-center  header-cart">
-                                <div class = "text-cart"> GIỎ HÀNG / <span class = "total-cart-header">0₫</span></div>
                                 <a href="cart.html">
                             <img class="image-cart-header" src="assets/images/cart.png" alt="">
                         </a>
                             </div>
+                            <div class="favorite">
+                                <a href="dangnhap.html" aria-current="page">
+                                    <img class="user-icon" src="assets/images/account.png" alt="user">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mobile">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center header-mobile-top">
+                    <div class="search-mobile">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="box-logo">
+                        <!-- Header logo -->
+                        <a href="home.html" title="Tiệm Trà Mộc Hương" rel="home">
+                            <img width="110" height="50" src="assets/images/logo.jpg" class="img-logo"
+                                alt="Tiệm Trà Mộc Hương" />
+                        </a>
+                    </div>
+                    <div class="cart-icon">
+                        <a href="cart.html">
+                            <img class="image-cart-header" src="assets/images/cart.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class = "hr-header-mobile">
+            <div class="container">
+                <div class="header-mobi-bottom">
+                    <div class="d-flex  justify-content-around menu-mobi">
+                        <div class="home-mobile">
+                            <img class="rounded mx-auto d-block" src="assets/images/home-icon.png" alt="" srcset="">
+                            <a class = "text-menu-header-mobile" href="home.html">TRANG CHỦ</a>
+                        </div>
+                        <div class="product-mobile">
+                            <img class="rounded mx-auto d-block" src="assets/images/product-icon.png" alt="" srcset="">
+                            <div class=" show">
+                                <a class="text-menu-header-mobile" href="sanpham.html">SẢN PHẨM</a>
+                                <a class="dropdown-toggle link-menu-header dropdown-header-product text-menu-header-mobile" href="sanpham.html"
+                                    role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                     <i class="fa fa-chevron-down icon-dropdown-product"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-item-menu-product"
+                                    aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Hoa</a>
+                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Thảo Mộc</a>
+                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Bột Sấy Lạnh</a>
+                                    <a class="dropdown-item dropdown-item-product" href="TraHoa.html">Trà Sen</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-mobile">
+                            <img class="rounded mx-auto d-block" src="assets/images/about-me-icon.png" alt="" srcset="">
+                            <a class = "text-menu-header-mobile" href="aboutme.html">VỀ CHÚNG TÔI</a>
+                        </div>
+                        <div class="home-mobile">
+                            <img class="rounded mx-auto d-block" src="assets/images/contact-icon.png" alt="" srcset="">
+                            <a class = "text-menu-header-mobile" href="contact.html">LIÊN HỆ</a>
                         </div>
                     </div>
                 </div>
